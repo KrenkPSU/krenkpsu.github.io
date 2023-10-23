@@ -1,0 +1,28 @@
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+img {
+    width: 100%;
+}
+.flextape{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.right{
+    flex: 10%;
+    padding-left: 100px;
+}
+.left{
+    flex: 10%;
+    padding-right: 100px;
+}
+.middle{
+    flex: 80%;
+
+}
