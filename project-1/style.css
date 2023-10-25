@@ -23,6 +23,9 @@ a {
     text-decoration: none;
     color: rgb(255,255,255) ;
 }
+a:hover {
+    color: rgb(94,23,23);
+}
 .all{
      background-color: rgb(94,23,23);
 width: 85%;
