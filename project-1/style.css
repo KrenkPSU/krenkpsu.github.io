@@ -105,3 +105,13 @@ p:first-of-type:first-letter {
     flex: 60%;
     padding: 80px;
 }
+.flexsub1{
+    display: flex;
+}
+.rightsub1{
+    flex: 40%;
+}
+.leftsub1{
+    flex: 60%;
+    padding: 80px;
+}
