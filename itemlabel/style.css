@@ -1,0 +1,127 @@
+ @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+ /* font-family: 'Courier Prime', monospace; */
+ *{
+    box-sizing: border-box;
+ }
+body {
+    margin: 0;
+}
+nav {
+    background-color: rgb( 64, 145, 241);
+    width: 100%;
+    font-family: 'Courier Prime', monospace;
+    align-items: center;
+}
+nav img {
+    height: 50px;
+    width: auto;
+    align-content: center;
+}
+.nav{
+    display: flex;
+}
+.nav .logo{
+    flex: 14%;
+}
+.nav .feet{
+    flex: 14%;
+}
+.nav .shp{
+    flex: 14%;
+}
+.nav .char{
+    flex: 14%;
+}
+.nav .us{
+    flex: 14%;
+}
+.nav .search{
+    flex: 14%;
+}
+.nav .cart{
+    flex: 14%;
+}
+img{
+    width: 100%;
+}
+marquee {
+    background-color: rgb(176, 246, 192) ;
+    align-items: center;
+}
+marquee div {
+display:inline-block;
+padding-bottom:20px;    
+}
+marquee img{
+    height: 50px;
+    width: auto;
+    display:inline-block;
+    margin-bottom:-16px;
+}
+footer {
+    background-color: rgb( 64, 145, 241);
+    font-family: 'Courier Prime', monospace;
+    width: 100%;
+    padding:60px;
+    color:white;
+}
+footer a {
+    color:white;
+    text-decoration: none;
+}
+footer button {
+    width: 100%;
+}
+.foot {
+    display: flex;
+}
+.foot .sub {
+flex: 20%;
+padding-right:40px;
+}
+.foot .other {
+flex: 30%;
+border-left: 7px rgb(255, 255, 255) solid;
+padding:0 40px;
+
+}
+.foot .social{
+    flex: 50%;
+    display:flex;
+    padding-left: 50px;
+}
+.foot .social a {
+    padding:10px;
+}
+.foot .social img {width:37px;}
+li {
+    list-style: none;
+}
+.feature {
+    text-align:center;
+  }
+  .gallery {
+    display:flex;
+    flex-wrap:wrap;
+    width:80%;
+    margin:auto;
+  }
+  .gallery .card {
+    flex: 25%;
+    padding:10px;
+    text-align:left;
+    max-width:25%;
+    margin-bottom:50px;
+  }
+  .thumbs {
+    display:flex;
+  }
+  .thumbs img {
+    border-radius: 5px;
+    display:inline-block;
+    padding-right:10px;
+    max-width:36px;
+  }
+.wallethover {
+    position: relative;
+}
