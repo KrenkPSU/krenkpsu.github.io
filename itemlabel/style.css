@@ -10,15 +10,18 @@ nav {
     background-color: rgb( 64, 145, 241);
     width: 100%;
     font-family: 'Courier Prime', monospace;
-    align-items: center;
 }
 nav img {
     height: 50px;
     width: auto;
-    align-content: center;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
 }
 .nav{
     display: flex;
+    align-items: center;
 }
 .nav .logo{
     flex: 14%;
@@ -39,7 +42,7 @@ nav img {
     flex: 14%;
 }
 .nav .cart{
-    flex: 14%;
+    flex: 3%;
 }
 img{
     width: 100%;
@@ -47,6 +50,8 @@ img{
 marquee {
     background-color: rgb(176, 246, 192) ;
     align-items: center;
+    font-family: 'Courier Prime', monospace;
+    margin: 0;
 }
 marquee div {
 display:inline-block;
@@ -78,12 +83,12 @@ footer button {
 .foot .sub {
 flex: 20%;
 padding-right:40px;
+text-align: center;
 }
 .foot .other {
 flex: 30%;
 border-left: 7px rgb(255, 255, 255) solid;
 padding:0 40px;
-
 }
 .foot .social{
     flex: 50%;
@@ -106,12 +111,17 @@ li {
     width:80%;
     margin:auto;
   }
+  .gallery a{
+    text-decoration: none;
+    color: black;
+  }
   .gallery .card {
     flex: 25%;
     padding:10px;
     text-align:left;
     max-width:25%;
     margin-bottom:50px;
+    font-family: 'Courier Prime', monospace;
   }
   .thumbs {
     display:flex;
@@ -122,6 +132,51 @@ li {
     padding-right:10px;
     max-width:36px;
   }
-.wallethover {
+.figure {
     position: relative;
+  }
+  .figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.image-hover {
+    opacity: 1;
+  }
+  h1 {
+    font-family: 'Courier Prime', monospace;
 }
+input {
+    width: 100%;
+}
+iframe {
+    width:100%;
+    height:560px;
+    z-index: -1;
+  }
+  .slidebox {
+    position:absolute;
+    width:100%;
+    margin-top:-8px;
+  }
+  .slideshow {
+    width:50%;
+    margin:auto;
+    margin-top:-80px;
+    height:400px;
+    z-index: 1;
+  }
+  .featured {
+    margin-top:400px;
+    text-align:center;
+  }
+.tagg{
+    width: 80%;
+    margin-left: 28px;
+
+  }
