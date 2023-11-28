@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 /*font-family: 'Nunito', sans-serif;*/
+body {
+    margin: 0;
+}
 p {
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     margin: 0;
-    
 }
 h1 {
     font-family: 'Nunito', sans-serif;
@@ -18,11 +20,91 @@ h2{
     font-size: 75px;
     color: rgb(100, 70, 186);
     margin: 0;
-    align-items: right;
+    text-align: right;
+    padding-right: 200px;
 }
 h3 {
     font-family: 'Nunito', sans-serif;
     font-size: 36px;
     color: rgb(100, 70, 186);
     margin: 0;
+    padding-left: 500px;
+    padding-top: 18px;
+    padding-bottom: 3px;
 }
+.leftp {
+    padding-left: 200pt;
+    padding-right: 300pt;
+    text-indent: 15pt;
+}
+.rightp {
+    padding-left: 300pt;
+    padding-right: 200pt;
+    text-indent: 15pt;
+}
+.left {
+    padding-bottom: 75px;
+    padding-top: 50px;
+}
+.right {
+    background-color: rgb(254, 220, 142);
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+footer {
+    background-color: rgb(254, 220, 142);
+    margin-top: 100px;
+    padding: 100px;
+}
+.botbot {
+background-color: rgb(39, 185, 185);
+padding: 0;
+margin-bottom: 100px;
+position: relative;
+}
+.hee {
+    width: 70%;
+    padding-left: 15vw;
+}
+.she {
+    width: 100%;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.we {
+    width: 100%;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+.uppies{
+    background-color:  rgb(39, 185, 185) ;
+    width: 100%;
+    margin-top: -50px;
+}
+iframe {
+    width: 70%;
+    height: 500px;
+    padding-left: 15vw;
+}
+img {
+   width: 100%; 
+   margin: 0;
+}
+.o {
+    width: 100px;
+}
+.botlog {
+    width: 100px;
+}
+.uphere {
+    position: relative;
+}
+.logoup {
+    width: 100px;
+    position: absolute;
+    left: 3vw;
+    top: 3vh;
+}
+
