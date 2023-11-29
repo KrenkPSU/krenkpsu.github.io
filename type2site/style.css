@@ -91,10 +91,9 @@ position: relative;
     width: 100%;
     margin-top: -50px;
 }
-iframe {
-    width: 70%;
-    height: 500px;
-    padding-left: 15vw;
+.thumbs {
+    width: 80%;
+    margin-left: 10vw;
 }
 img {
    width: 100%; 
