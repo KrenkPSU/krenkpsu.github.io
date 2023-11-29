@@ -1,10 +1,12 @@
 const slideList = [
     {
     id: 1,
+    text: '',
     src: 'image/deal1_itemlabel.png'
   },
   {
     id: 2,
+    text: '',
     src: 'image/deal2.png'
   },
 ]
