@@ -180,7 +180,7 @@ iframe {
     cursor: pointer;
   }
   .featured {
-    margin-top:50vh;
+    margin-top:5vh;
     text-align:center;
   }
 .tagg{
@@ -337,8 +337,49 @@ iframe {
       left: -90px;
       bottom: -50px;
     }
+    nav {
+      font-size: 14px;
+      padding-bottom: 15px;
+    }
     .nav {
-
+      flex-wrap: wrap;
+    }
+    .nav .logo {
+      flex: 90%;
+      padding: 0;
+      margin: 0;
+    }
+    .nav .feet {
+      flex: 16%;
+      padding-left: 10px;
+      margin: 0;
+    }
+    .nav .shp {
+      flex: 16%;
+      padding: 0;
+      margin: 0;
+    }
+    .nav .char {
+      flex: 16%;
+      padding: 0;
+    }
+    .nav .us {
+      flex: 14%;
+      padding: 0;
+      margin: 0;
+    }
+    .nav .search {
+      padding: 0;
+      flex: 14%;
+      margin: 0;
+    }
+    .nav .cart {
+      position: absolute;
+      top: 0;
+      right: -30px;
+      width: 100px;
+      padding: 0;
+      margin: 0;
     }
     .about {
       padding: 0;
