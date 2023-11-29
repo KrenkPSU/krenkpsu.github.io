@@ -268,6 +268,7 @@ iframe {
   .angerboi {
     padding-left: 150px;
   }
+
   @media only screen and (max-width: 600px) {
     .angerboi{
       padding: none;
@@ -307,7 +308,24 @@ iframe {
     .featured {
       margin: 0;
     }
-    footer {
+    .foot {
       margin-top:;
+      flex-wrap: wrap;
+      position: relative;
+      padding-bottom: 20px;
+    }
+    .other {
+  padding: 0;
+    }
+    .sub {
+      padding-bottom: 10px;
+    }
+    .social {
+      position: absolute;
+      left: -90px;
+      bottom: -50px;
+    }
+    .nav {
+
     }
   }
