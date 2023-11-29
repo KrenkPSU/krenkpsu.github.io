@@ -15,7 +15,7 @@ h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 75px;
     color: rgb(227, 104, 73);
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 50px;
     padding-bottom: 30px;
     margin: 0;
@@ -26,7 +26,7 @@ h2{
     color: rgb(100, 70, 186);
     margin: 0;
     text-align: right;
-    padding-right: 200px;
+    padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -35,18 +35,18 @@ h3 {
     font-size: 36px;
     color: rgb(100, 70, 186);
     margin: 0;
-    padding-left: 500px;
+    padding-left: 520px;
     padding-top: 18px;
     padding-bottom: 3px;
 }
 .leftp {
-    padding-left: 200pt;
-    padding-right: 300pt;
+    padding-left: 150pt;
+    padding-right: 350pt;
     text-indent: 15pt;
 }
 .rightp {
-    padding-left: 300pt;
-    padding-right: 200pt;
+    padding-left: 350pt;
+    padding-right: 150pt;
     text-indent: 15pt;
 }
 .left {
