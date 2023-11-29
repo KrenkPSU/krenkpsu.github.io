@@ -8,11 +8,16 @@ p {
     font-size: 16px;
     margin: 0;
 }
+p:first-of-type {
+    text-indent: 0;
+}
 h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 75px;
     color: rgb(227, 104, 73);
     padding-left: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     margin: 0;
 }
 h2{
@@ -22,6 +27,8 @@ h2{
     margin: 0;
     text-align: right;
     padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 h3 {
     font-family: 'Nunito', sans-serif;
@@ -54,7 +61,8 @@ h3 {
 footer {
     background-color: rgb(254, 220, 142);
     margin-top: 100px;
-    padding: 100px;
+    padding: 10px;
+    display: flex;
 }
 .botbot {
 background-color: rgb(39, 185, 185);
@@ -63,8 +71,8 @@ margin-bottom: 100px;
 position: relative;
 }
 .hee {
-    width: 70%;
-    padding-left: 15vw;
+    width: 50%;
+    padding-left: 25vw;
 }
 .she {
     width: 100%;
@@ -94,17 +102,45 @@ img {
 }
 .o {
     width: 100px;
+    padding-left: 60vw;
 }
 .botlog {
     width: 100px;
+    margin-right: 1vw;
 }
 .uphere {
     position: relative;
 }
 .logoup {
-    width: 100px;
+    width: 230px;
     position: absolute;
     left: 3vw;
     top: 3vh;
 }
-
+.snake {
+    width: 200px;
+    position: absolute;
+    right: 12vw;
+    top: 100px;
+}
+.snakebake {
+position: relative;
+}
+.birdup {
+    position: relative;
+}
+.bird {
+    position: absolute;
+    width: 200px;
+    top: 100px;
+    right: 12vw;
+}
+.rattrap {
+    position: relative;
+}
+.rat {
+    width: 150px;
+    position: absolute;
+    top: 100px;
+right: 12vw;
+}
