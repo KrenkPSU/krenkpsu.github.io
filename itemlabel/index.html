@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ItemLabel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
     <nav>
@@ -27,11 +28,15 @@
         <div><img src="image/ouiouiskate.png"></div>
     </marquee>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/xmtQyd68VYQ?si=5chgghQZCXZA9na8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <section class="slidebox">
-        <div class="slideshow">
-          <a href=""><img src="image/deal1_itemlabel.png" alt="mangadeal"></a>
+    <section class="slideshow">
+        <div class="prev arrow"><h2> < </h2></div>
+        <div class="slide" id="slideContent">
+          <img class="slideimg" src="image/deal2.png">
         </div>
+        <div class="next arrow"><h2> > </h2></div>
       </section>
+       <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
     <section class="featured">
         <h1><strong>Featured Items</strong></h1>
         <article class="gallery">

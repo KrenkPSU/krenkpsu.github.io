@@ -159,17 +159,25 @@ iframe {
     height:560px;
     z-index: -1;
   }
-  .slidebox {
-    position:absolute;
-    width:100%;
-    margin-top:-8px;
-  }
   .slideshow {
-    width:50%;
+    width:80%;
     margin:auto;
-    margin-top:-80px;
-    height:400px;
-    z-index: 1;
+    margin-top: -100px;
+    display:flex;
+    align-items:center;
+  }
+  .slideshow .slide {
+    flex:80%;
+  }
+  .slideshow .slideimg {
+    transition: 1s;
+      animation: fadeIn;
+    animation-duration: 2s;
+  }
+  .arrow {
+    font-size:60px;
+    padding:10px;
+    cursor: pointer;
   }
   .featured {
     margin-top:50vh;
@@ -234,8 +242,10 @@ iframe {
   }
   .shop .shopright {
     flex: 30%;
-    background-color: rgb(176, 246, 192) ;
     font-family: 'Courier Prime', monospace;
+  }
+  .swep {
+    background-color: rgb(176, 246, 192) ;
   }
   .scream button {
     font-family: 'Courier Prime', monospace;
@@ -309,10 +319,12 @@ iframe {
       margin: 0;
     }
     .foot {
-      margin-top:;
       flex-wrap: wrap;
       position: relative;
       padding-bottom: 20px;
+    }
+    footer {
+      margin-top: 100px;
     }
     .other {
   padding: 0;
@@ -327,5 +339,13 @@ iframe {
     }
     .nav {
 
+    }
+    .about {
+      padding: 0;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    .aboutus {
+      padding: 0;
     }
   }
