@@ -234,7 +234,6 @@ iframe {
     background-color: rgb(255, 255, 255);
   }
   .content {
-    padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
