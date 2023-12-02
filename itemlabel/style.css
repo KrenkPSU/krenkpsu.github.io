@@ -23,6 +23,9 @@ nav img {
     display: flex;
     align-items: center;
 }
+.nav a:hover {
+  filter: invert(1);
+}
 .nav .logo{
     flex: 14%;
 }
@@ -94,6 +97,9 @@ padding:0 40px;
     flex: 50%;
     display:flex;
     padding-left: 50px;
+}
+.foot a:hover {
+  filter: invert(1);
 }
 .foot .social a {
     padding:10px;
@@ -205,6 +211,9 @@ iframe {
   .about a {
     text-decoration: none;
     color: black;
+  }
+  .about a:hover {
+    color: rgb( 64, 145, 241);
   }
   .rogue {
     text-align: center;
